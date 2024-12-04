@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shape::after{
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: ;
+  height: 56px;
+  width: 150px;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  background: #312787;
+  
+}
+
+.shape::before{
+  content: "";
+  position: absolute;
+  right: 200px;
+  top: 0px;
+  height: 56px;
+  width: 150px;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  background: #5A48F9;
+  
+}
